@@ -32,6 +32,8 @@
     * Install eslint, a JavaScript linter webpack ($ npm install eslint@4.18.2 --save-dev) ($ npm install eslint-loader@2.0.0 --save-dev), edit webpack.config.js and create an .eslintrc file.
     * Install jQuery dependency ($ npm install jquery --save), edit main.js file and remove scripts tap for jQuery.
     * Install bootstrap dependency ($ npm install popper.js --save) ($ npm install bootstrap --save) and edit src/main.js file.
+    * Setup Jasmine buy installing Node module, helper package and initialization ($ npm install jasmine-core@2.99.0 --save-dev) ($ npm install jasmine@3.1.0 --save-dev) ($ ./node_modules/.bin/jasmine init) and update package.json file.
+    * Install and setup Karma webpack ($ npm install karma@2.0.0 --save-dev). Add a package that will make Karma and Jasmine work together ($ npm install karma-jasmine@1.1.1 --save-dev). Install Chrome launcher ($ npm install karma-chrome-launcher@2.2.0 --save-dev).  Install Karma from the CLI ($ npm install karma-cli@1.0.1 --save-dev). Install several packages in order for Karma can understand other packages ($ npm install karma-webpack@2.0.13 --save-dev) ($ npm install karma-jquery@0.2.2 --save-dev) ($ npm install karma-jasmine-html-reporter@0.2.2 --save-dev) ($ karma init) and edit karma.conf.js file.
 
 2. Specs
   * Spec 1: Convert a person's name from years into seconds. input: 5 years, output: 157,680,000 seconds.
@@ -51,6 +53,7 @@
   * styles.css: require to style index.html file.
 * In the spec folder...
   * space-age-calculator-spec.js: require to define business specs.
+* In the support folder...
   * /support/jasmine.json: require to TBD
 
 4. UX/UI
