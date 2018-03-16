@@ -26,6 +26,7 @@
     * Install CSS packages by installing webpacks ($ npm install style-loader@0.20.2 css-loader@0.28.10 --save-dev) and edit file webpack.config.js.
     * Install HTML webpack to compress HTML code ($ npm install html-webpack-plugin@3.0.6 --save-dev) and edit webpack.config.js file.
     * Install CleanWebpack plugin to clean up the dist folder ($ npm install clean-webpack-plugin@0.1.18 --save-dev) and edit webpack.config.js file.
+    * Install Minifying plugin to the bare minimum coding to read the file. ($ npm install uglifyjs-webpack-plugin@1.2.2 --save-dev) and edit webpack.config.js file.
 
 2. Specs
   * Spec 1: Convert a person's name from years into seconds. input: 5 years, output: 157,680,000 seconds.
