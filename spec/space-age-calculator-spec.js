@@ -4,7 +4,7 @@ describe('Age', function() {
 
   it('should calculate years into seconds', function() {
     let years = new Age(5);
-    expect(years.intoSeconds()).toEqual(157680000); //1.577e8
+    expect(years.intoSeconds()).toEqual(157680000);
   });
 
 
