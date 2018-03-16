@@ -3,7 +3,8 @@ import { Age } from './../src/space-age-calculator.js';
 describe('Age', function() {
 
   it('should calculate years into seconds', function() {
-    // place tests here
+    let years = new Age(5);
+    expect(years.intoSeconds()).toEqual(157680000); //1.577e8
   });
 
 
