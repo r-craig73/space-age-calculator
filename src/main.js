@@ -1,8 +1,8 @@
 import { Age } from './../src/space-age-calculator';
 import './styles.css';
-// import $ from 'jquery';
-// import 'bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 $(document).ready(function() {
   $('#space-age-calculator').submit(function(event) {

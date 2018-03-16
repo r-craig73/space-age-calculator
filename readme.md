@@ -30,6 +30,8 @@
     * Install webpack development server ($ npm install webpack-dev-server@3.1.0 --save-dev) and edit webpack.config.js and package.json files.
     Install webpack development server ($ npm install webpack-dev-server@3.1.0 --save-dev) and edit webpack.config.js and package.json files.
     * Install eslint, a JavaScript linter webpack ($ npm install eslint@4.18.2 --save-dev) ($ npm install eslint-loader@2.0.0 --save-dev), edit webpack.config.js and create an .eslintrc file.
+    * Install jQuery dependency ($ npm install jquery --save), edit main.js file and remove scripts tap for jQuery.
+    * Install bootstrap dependency ($ npm install popper.js --save) ($ npm install bootstrap --save) and edit src/main.js file.
 
 2. Specs
   * Spec 1: Convert a person's name from years into seconds. input: 5 years, output: 157,680,000 seconds.
