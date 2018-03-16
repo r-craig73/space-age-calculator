@@ -1,5 +1,5 @@
 import { Age } from './space-age-calculator';
-// import './styles.css';
+import './styles.css';
 // import $ from 'jquery';
 // import 'bootstrap';
 // import 'bootstrap/dist/css/bootstrap.min.css';
