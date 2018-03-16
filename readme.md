@@ -21,16 +21,18 @@
     * Initialize npm ($ npm init -y).
     * Create a .gitignore file in the home folder (exclude unnecessary files/folders).
     * Install webpack packages ($ npm install webpack@4.0.1 --save-dev) ($ npm install webpack-cli@2.0.9 --save-dev).
+    * Add dist and sec folders to top level.
+    * Add index.html, main.js and project.js files to bundle JavaScript webpack ($ npm run build).
 
 2. Specs
   * Spec 1: Convert a person's name from years into seconds. input: 5 years, output: 157,680,000 seconds.
-  * Spec 2: Take two dates and determine the difference, in seconds. input1: 03/14/1973, input2: 03/16/2018 (now-ish), output: ~1,426,896,000 seconds.
-  * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years). input: 10 years, output: 41.67 years (41 years, round down)
-  * Spec 4: Return the age of a human in Venus years (1 Venus year = 0.62 Earth years). input: 10 years, output: 16.13 years (16 years round down)
-  * Spec 5: Return the age of a human in Mars years (1 Mars year = 1.88 Earth years). input: 10 years, output: 5.32 years (5 years round down)
-  * Spec 6: Return the age of a human in Jupiter years (1 Jupiter year = 11.86 Earth years). input: 10 years, output: 0.84 years (0 years round down)
-  * Spec 7: Determine life expectancy a user has left to live on each planet. Have user input average life expectancy for US male/female. input: 82 years, outputs: You are expected to live 154.17 more years on Mercury; You are expected to live 59.68 more years on Venus; You are expected to live 19.68 more years on Mars; You are expected to live 3.12 more years on Jupiter;
-  * Spec 8: If user has already surpassed the average life expectancy, return the number of years the user lived past the life expectancy. input: 84 years, outputs: Congrats, on Mercury you lived 8.33 years longer than average! Live long and prosper!; Congrats, on Venus you lived 3.23 years longer than average! Live long and prosper!; Congrats, on Mars you lived 1.06 years longer than average! Live long and prosper!; Congrats, on Jupiter you lived 0.17 years longer than average! Live long and prosper!;
+  * Spec 2: Take two dates and determine the difference, in seconds. input1: 03/14/1973, input2: 03/16/2018 (now-ish); output: ~1,426,896,000 seconds.
+  * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years). input: 10 years; output: 41.67 years (41 years, round down).
+  * Spec 4: Return the age of a human in Venus years (1 Venus year = 0.62 Earth years). input: 10 years; output: 16.13 years (16 years round down).
+  * Spec 5: Return the age of a human in Mars years (1 Mars year = 1.88 Earth years). input: 10 years; output: 5.32 years (5 years round down).
+  * Spec 6: Return the age of a human in Jupiter years (1 Jupiter year = 11.86 Earth years). input: 10 years; output: 0.84 years (0 years round down)
+  * Spec 7: Determine life expectancy a user has left to live on each planet. Have user input average life expectancy for US male/female. input: 82 years; outputs: You are expected to live 154.17 more years on Mercury. Live your life!; You are expected to live 59.68 more years on Venus. Live your life!; You are expected to live 19.68 more years on Mars. Live your life!; You are expected to live 3.12 more years on Jupiter. Live your life!
+  * Spec 8: If user has already surpassed the average life expectancy, return the number of years the user lived past the life expectancy. input: 84 years; outputs: Congrats, on Mercury you lived 8.33 years longer than average! Live long and prosper!; Congrats, on Venus you lived 3.23 years longer than average! Live long and prosper!; Congrats, on Mars you lived 1.06 years longer than average! Live long and prosper!; Congrats, on Jupiter you lived 0.17 years longer than average! Live long and prosper!
 
 3. Integration
 * In the src folder...
