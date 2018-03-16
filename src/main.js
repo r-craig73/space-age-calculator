@@ -1,4 +1,4 @@
-import { Age } from './space-age-calculator';
+import { Age } from './../src/space-age-calculator';
 import './styles.css';
 // import $ from 'jquery';
 // import 'bootstrap';
@@ -9,8 +9,6 @@ $(document).ready(function() {
     event.preventDefault();
     let userAge = $('#user-age').val();
     let output = new Age(userAge);
-    output.forEach(function(element) {
-      $('#solution').append("<li>" + element + "</li>");
-    });
+    $('#solution').append('<p>' + output);
   });
 });

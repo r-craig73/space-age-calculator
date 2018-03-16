@@ -1,5 +1,5 @@
-export function Age(age) {
-  this.age = age;
+export function Age(userAge) {
+  this.userAge = userAge;
 }
 
-exports.solutionModule = Age;
+// exports.solutionModule = Age;
