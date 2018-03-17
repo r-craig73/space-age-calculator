@@ -9,9 +9,8 @@ describe('Age', function() {
 
   it('should return the age of the human in Mercury years', function() {
     let earthYears = new Age(10);
-    expect(earthYears.mercuryYears()).toEqual(16.13);
+    expect(earthYears.mercuryYears()).toEqual(41.66666666666667);
   });
-
 
 });
 

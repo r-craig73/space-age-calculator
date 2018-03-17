@@ -11,11 +11,24 @@ const hours = 24;
 const minutes = 60;
 const seconds = 60;
 const milliseconds = 1000;
-// const mercury = 0.24;
+const mercury = 0.24;
 
 Age.prototype.intoSeconds = function() {
   let age = this.userAge;
   let result = age * days * hours * minutes * seconds;
+  if (isNaN(result)) {
+    return "unable to compute";
+  } else {
+    return result;
+  }
+};
+
+Age.prototype.mercuryYears = function() {
+  let age = this.userAge;
+  let mercuryAge = age / mercury;
+  let result = mercuryAge;
+  //.toFixed(3);
+  console.log(result);
   if (isNaN(result)) {
     return "unable to compute";
   } else {
@@ -35,9 +48,4 @@ Birthdate.prototype.dateDifference = function() {
   } else {
     return difference;
   }
-};
-
-Age.prototype.mercuryYears = function() {
-
-
 };
