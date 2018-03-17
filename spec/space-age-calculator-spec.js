@@ -19,7 +19,7 @@ describe('Age', function() {
 
   it('should return the age of the human in Mars years', function() {
     let earthYears = new Age(10);
-    expect(earthYears.marsYears()).toEqual(5.32);
+    expect(earthYears.marsYears()).toEqual(5.319148936170213);
   });
 
 });

@@ -13,6 +13,7 @@ const seconds = 60;
 const milliseconds = 1000;
 const mercury = 0.24;
 const venus = 0.62;
+const mars = 1.88;
 
 Age.prototype.intoSeconds = function() {
   let age = this.userAge;
@@ -47,7 +48,14 @@ Age.prototype.venusYears = function() {
 };
 
 Age.prototype.marsYears = function() {
-
+  let age = this.userAge;
+  let marsAge = age / mars;
+  let result = marsAge;
+  if (isNaN(result)) {
+    return "unable to compute";
+  } else {
+    return result;
+  }
 };
 
 Birthdate.prototype.dateDifference = function() {
