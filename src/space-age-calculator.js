@@ -11,3 +11,7 @@ Age.prototype.intoSeconds = function() {
   let result = age * days * hours * minutes * seconds;
   return result;
 };
+
+Age.prototype.dateDifference = function() {
+
+};

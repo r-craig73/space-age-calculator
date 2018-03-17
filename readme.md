@@ -9,8 +9,8 @@
 ### An app calculating a user's age with respect to other planets in the solor system. Life expectancy left on other planets and (hopefully) years beyond life expectancy are calculated.
 
 ## Business Specifications
-  * Spec 1: Convert a person's name from years into seconds. input: 5 years, output: 157,680,000 seconds.
-  * Spec 2: Take two dates and determine the difference, in seconds. input1: 03/14/1973, input2: 03/16/2018 (now-ish); output: ~1,426,896,000 seconds.
+  * Spec 1: Convert a person's name from years into seconds. input: 5 years, output: 157680000 seconds.
+  * Spec 2: Take two dates and determine the difference, in seconds. input1: 03/16/2018, input2: 03/16/2017 (now-ish); output: 31536000 seconds.
   * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years). input: 10 years; output: 41.67 years (41 years, round down).
   * Spec 4: Return the age of a human in Venus years (1 Venus year = 0.62 Earth years). input: 10 years; output: 16.13 years (16 years round down).
   * Spec 5: Return the age of a human in Mars years (1 Mars year = 1.88 Earth years). input: 10 years; output: 5.32 years (5 years round down).
@@ -75,14 +75,14 @@
 
 Copyright (c) 2018 **_RC productions_**
 
-#### Planning (ongoing)
-  3. Finish failing and passing business-side BDD specs.
+##### Planning (ongoing)
+  1. Finish failing and passing business-side BDD specs.
 
-  4. UX/UI
+  2. UX/UI
     * Include and modify bootstrap/materialize/Sass etc.
     * Develop custom style
 
-  5. Polish
+  3. Polish
     * Refactor minor portion of...
     * Delete unused...
     * Make README awesome
