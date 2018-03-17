@@ -14,7 +14,7 @@ describe('Age', function() {
 
   it('should return the age of the human in Venus years', function() {
     let earthYears = new Age(10);
-    expect(earthYears.venusYears()).toEqual(16.13);
+    expect(earthYears.venusYears()).toEqual(16.129032258064516);
   });
 
 });
