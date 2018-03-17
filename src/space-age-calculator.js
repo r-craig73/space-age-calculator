@@ -29,7 +29,7 @@ Age.prototype.intoSeconds = function() {
 
 Age.prototype.mercuryYears = function() {
   let age = this.userAge;
-  let mercuryAge = age / mercury;
+  let mercuryAge = (age / mercury);
   let result = mercuryAge;
   if(isNaN(result)) {
     return "unable to compute";
@@ -39,7 +39,7 @@ Age.prototype.mercuryYears = function() {
 
 Age.prototype.venusYears = function() {
   let age = this.userAge;
-  let venusAge = age / venus;
+  let venusAge = (age / venus);
   let result = venusAge;
   if(isNaN(result)) {
     return "unable to compute";
@@ -49,7 +49,7 @@ Age.prototype.venusYears = function() {
 
 Age.prototype.marsYears = function() {
   let age = this.userAge;
-  let marsAge = age / mars;
+  let marsAge = (age / mars);
   let result = marsAge;
   if(isNaN(result)) {
     return "unable to compute";
@@ -59,7 +59,7 @@ Age.prototype.marsYears = function() {
 
 Age.prototype.jupiterYears = function() {
   let age = this.userAge;
-  let jupiterAge = age / jupiter;
+  let jupiterAge = (age / jupiter);
   let result = jupiterAge;
   if(isNaN(result)) {
     return "unable to compute";
@@ -85,16 +85,18 @@ Age.prototype.yearsLeftMale = function() {
 Age.prototype.yearsLeftFemale = function() {
   let age = this.userAge;
   let results = [];
-  let lifeLeft = usFemale - age;
-  let mercuryLeft = (lifeLeft / mercury);
-  results.push(mercuryLeft);
-  let venusLeft = (lifeLeft / venus);
-  results.push(venusLeft);
-  let marsLeft = (lifeLeft / mars);
-  results.push(marsLeft);
-  let jupiterLeft = (lifeLeft / jupiter);
-  results.push(jupiterLeft);
-  return results;
+
+    let lifeLeft = usFemale - age;
+    let mercuryLeft = (lifeLeft / mercury);
+    results.push(mercuryLeft);
+    let venusLeft = (lifeLeft / venus);
+    results.push(venusLeft);
+    let marsLeft = (lifeLeft / mars);
+    results.push(marsLeft);
+    let jupiterLeft = (lifeLeft / jupiter);
+    results.push(jupiterLeft);
+    return results;
+  
 };
 
 Birthdate.prototype.dateDifference = function() {
