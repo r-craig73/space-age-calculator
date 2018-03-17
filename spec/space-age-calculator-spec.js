@@ -17,6 +17,11 @@ describe('Age', function() {
     expect(earthYears.venusYears()).toEqual(16.129032258064516);
   });
 
+  it('should return the age of the human in Mars years', function() {
+    let earthYears = new Age(10);
+    expect(earthYears.marsYears()).toEqual(5.32);
+  });
+
 });
 
 describe('Birthdate', function() {

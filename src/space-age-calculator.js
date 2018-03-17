@@ -46,6 +46,10 @@ Age.prototype.venusYears = function() {
   }
 };
 
+Age.prototype.marsYears = function() {
+
+};
+
 Birthdate.prototype.dateDifference = function() {
   let dateOfBirth = this.userBirthdate;
   let birth = new Date(dateOfBirth);
