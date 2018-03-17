@@ -13,8 +13,8 @@
     * Input: 5 years
     * Output: 157680000 seconds
   * Spec 2: Take two dates and determine the difference, in seconds.
-    * Input1: 03/16/2018 (midnight)
-    * Input2: 03/16/2017 (midnight)
+    * Input #1: 03/16/2018 (midnight)
+    * Input #2: 03/16/2017 (midnight)
     * Output: 31536000 seconds.
   * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years).
     * Input: 10 years
@@ -29,11 +29,15 @@
     * Input: 10 years
     * Output: 0.84 years
   * Spec 7: Determine life expectancy a user has left to live on each planet. Have user input average life expectancy for US male (76 years)/female (81 years) [source: https://www.statista.com/statistics/274513/life-expectancy-in-north-america/ ].
-    * Input: 45 years, US male
-    * Outputs: As a US male, you are expected to live 129.17 more years on Mercury.; As a US male, you are expected to live 50.00 more years on Venus.; As a US male, you are expected to live 16.49 more years on Mars.; As a US male, you are expected to live 2.61 more years on Jupiter.
+    * Input #1: 45 year old US male
+    * Input #2: 45 year old US female
+    * Outputs #1: As a US male, you are expected to live 129.17 more years on Mercury.; As a US male, you are expected to live 50.00 more years on Venus.; As a US male, you are expected to live 16.49 more years on Mars.; As a US male, you are expected to live 2.61 more years on Jupiter.
+    * Outputs #2: As a US female, you are expected to live 150.00 more years on Mercury.; As a US female, you are expected to live 58.06 more years on Venus.; As a US female, you are expected to live 19.15 more years on Mars.; As a US female, you are expected to live 3.04 more years on Jupiter.
   * Spec 8: If user has already surpassed the average life expectancy, return the number of years the user lived past the life expectancy. [ONGOING]
-    * Input: 84 years, US female
-    * Outputs: Congrats, on Mercury you lived 8.33 years longer than average!; Congrats, on Venus you lived 3.23 years longer than average!; Congrats, on Mars you lived 1.06 years longer than average!; Congrats, on Jupiter you lived 0.17 years longer than average!
+    * Input #1: 84 year old US female
+    * Input #2: 84 year old US male
+    * Outputs #1: Congrats, on Mercury you lived 12.50 years longer than an average US female!; Congrats, on Venus you lived 4.84 years longer than an average US female!; Congrats, on Mars you lived 1.60 years longer  than an average US female!; Congrats, on Jupiter you lived 0.25 years longer than an average US female!
+    * Outputs #2: Congrats, on Mercury you lived 33.33 years longer than an average US male!; Congrats, on Venus you lived 12.90 years longer than an average US male!; Congrats, on Mars you lived 4.26 years longer  than an average US male!; Congrats, on Jupiter you lived 0.67 years longer than an average US male!
 
 ## Configuration/dependencies
   * JavaScript (object-oriented) and JavaScript Date object.
@@ -81,7 +85,8 @@
 
 ## Known Bugs
 ### While running Karma, a DEPRECIATION error:
-### Chrome 65.0.3325 (Mac OS X 10.13.3) ERROR: 'DEPRECATION: The catchExceptions option is deprecated and will be replaced with stopOnSpecFailure in Jasmine 3.0'
+#### Chrome 65.0.3325 (Mac OS X 10.13.3) ERROR: 'DEPRECATION: The catchExceptions option is deprecated and will be replaced with stopOnSpecFailure in Jasmine 3.0'
+### JavaScript calculations are buggy after dividing a number to an integer.
 
 ## Technology Used
 * Node Package Manager (organizing webpacks and dependencies)
