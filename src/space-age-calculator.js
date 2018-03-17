@@ -58,6 +58,10 @@ Age.prototype.marsYears = function() {
   }
 };
 
+Age.prototype.jupiterYears = function() {
+
+};
+
 Birthdate.prototype.dateDifference = function() {
   let dateOfBirth = this.userBirthdate;
   let birth = new Date(dateOfBirth);
