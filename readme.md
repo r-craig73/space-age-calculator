@@ -28,7 +28,7 @@
   * Spec 6: Return the age of a human in Jupiter years (1 Jupiter year = 11.86 Earth years).
     * Input: 10 years
     * Output: 0.84 years
-  * Spec 7: Determine life expectancy a user has left to live on each planet. Have user input average life expectancy for US male (76 years)/female (81 years) [source: https://www.statista.com/statistics/274513/life-expectancy-in-north-america/ ]. [ONGOING]
+  * Spec 7: Determine life expectancy a user has left to live on each planet. Have user input average life expectancy for US male (76 years)/female (81 years) [source: https://www.statista.com/statistics/274513/life-expectancy-in-north-america/ ].
     * Input: 45 years, US male
     * Outputs: As a US male, you are expected to live 129.17 more years on Mercury.; As a US male, you are expected to live 50.00 more years on Venus.; As a US male, you are expected to live 16.49 more years on Mars.; As a US male, you are expected to live 2.61 more years on Jupiter.
   * Spec 8: If user has already surpassed the average life expectancy, return the number of years the user lived past the life expectancy. [ONGOING]

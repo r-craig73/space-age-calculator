@@ -29,11 +29,9 @@ describe('Age', function() {
 
   it('should return the life expectancy for a US female or male', function() {
     let earthYears = new Age(45);
-    expect(earthYears.yearsLeftMale()).toEqual([129.1667, 50, 16.4894, 2.6138]);
-    expect(earthYears.yearsLeftFemale()).toEqual([150, 58.0645, 19.1489, 3.0354]);
+    expect(earthYears.yearsLeftMale()).toEqual([129.16666666666669, 50, 16.48936170212766, 2.6138279932546378]);
+    expect(earthYears.yearsLeftFemale()).toEqual([150, 58.064516129032256, 19.148936170212767, 3.0354131534569984]);
   });
-
-
 
 });
 
