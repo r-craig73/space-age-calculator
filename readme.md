@@ -9,14 +9,31 @@
 ### An app calculating a user's age with respect to other planets in the solor system. Life expectancy left on other planets and (hopefully) years beyond life expectancy are calculated.
 
 ## Business Specifications
-  * Spec 1: Convert a person's name from years into seconds. input: 5 years, output: 157680000 seconds.
-  * Spec 2: Take two dates and determine the difference, in seconds. input1: 03/16/2018 (midnight), input2: 03/16/2017 (midnight), midnight; output: 31536000 seconds.
-  * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years). input: 10 years; output: 41.67 years (41 years, round down).
-  * Spec 4: Return the age of a human in Venus years (1 Venus year = 0.62 Earth years). input: 10 years; output: 16.13 years (16 years round down).
-  * Spec 5: Return the age of a human in Mars years (1 Mars year = 1.88 Earth years). input: 10 years; output: 5.32 years (5 years round down).
-  * Spec 6: Return the age of a human in Jupiter years (1 Jupiter year = 11.86 Earth years). input: 10 years; output: 0.84 years (0 years round down)
-  * Spec 7: Determine life expectancy a user has left to live on each planet. Have user input average life expectancy for US male/female. input: 82 years; outputs: You are expected to live 154.17 more years on Mercury.; You are expected to live 59.68 more years on Venus.; You are expected to live 19.68 more years on Mars.; You are expected to live 3.12 more years on Jupiter. [ONGOING]
-  * Spec 8: If user has already surpassed the average life expectancy, return the number of years the user lived past the life expectancy. input: 84 years; outputs: Congrats, on Mercury you lived 8.33 years longer than average!; Congrats, on Venus you lived 3.23 years longer than average!; Congrats, on Mars you lived 1.06 years longer than average!; Congrats, on Jupiter you lived 0.17 years longer than average! [ONGOING]
+  * Spec 1: Convert a person's name from years into seconds.
+    * Input: 5 years
+    * Output: 157680000 seconds
+  * Spec 2: Take two dates and determine the difference, in seconds.
+    * Input1: 03/16/2018 (midnight)
+    * Input2: 03/16/2017 (midnight)
+    * Output: 31536000 seconds.
+  * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years).
+    * Input: 10 years
+    * Output: 41.67 years
+  * Spec 4: Return the age of a human in Venus years (1 Venus year = 0.62 Earth years).
+    * Input: 10 years
+    * Output: 16.13 years
+  * Spec 5: Return the age of a human in Mars years (1 Mars year = 1.88 Earth years).
+    * Input: 10 years
+    * Output: 5.32 years
+  * Spec 6: Return the age of a human in Jupiter years (1 Jupiter year = 11.86 Earth years).
+    * Input: 10 years
+    * Output: 0.84 years
+  * Spec 7: Determine life expectancy a user has left to live on each planet. Have user input average life expectancy for US male (76 years)/female (81 years) [source: https://www.statista.com/statistics/274513/life-expectancy-in-north-america/ ]. [ONGOING]
+    * Input: 76 years
+    * Outputs: You are expected to live 154.17 more years on Mercury.; You are expected to live 59.68 more years on Venus.; You are expected to live 19.68 more years on Mars.; You are expected to live 3.12 more years on Jupiter.
+  * Spec 8: If user has already surpassed the average life expectancy, return the number of years the user lived past the life expectancy. [ONGOING]
+    * Input: 84 years
+    * Outputs: Congrats, on Mercury you lived 8.33 years longer than average!; Congrats, on Venus you lived 3.23 years longer than average!; Congrats, on Mars you lived 1.06 years longer than average!; Congrats, on Jupiter you lived 0.17 years longer than average!
 
 ## Configuration/dependencies
   * JavaScript (object-oriented) and JavaScript Date object.
@@ -47,7 +64,7 @@
   * Install npm ($ npm install).
   * Update npm to version 5.7.1 ($ npm i npm).
   * Initialize npm ($ npm init -y).
-  * Create a .gitignore file in the home folder (exclude unnecessary files/folders).
+  * Create a .gitignore file in the home folder (exclude unnecessary files/folders going into the repository).
   * Install webpack packages ($ npm install webpack@4.0.1 --save-dev) ($ npm install webpack-cli@2.0.9 --save-dev).
   * Add dist and sec folders to top level.
   * Add index.html, main.js and project.js files to bundle JavaScript webpack ($ npm run build).
