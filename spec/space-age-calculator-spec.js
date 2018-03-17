@@ -7,10 +7,18 @@ describe('Age', function() {
     expect(years.intoSeconds()).toEqual(157680000);
   });
 
+  it('should return the age of the human in Mercury years', function() {
+    let earthYears = new Age(10);
+    expect(earthYears.mercuryYears()).toEqual(16.13);
+  });
+
+
+});
+
+describe('Birthdate', function() {
   it('should compare two different dates and determine the difference, in seconds', function() {
     let birthDate = new Birthdate("03/16/2017");
     expect(birthDate.dateDifference()).toEqual(31536000);
   });
-
 
 });
