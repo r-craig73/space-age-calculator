@@ -1,12 +1,12 @@
 # space_age_calculator
 
 #### by Ron Craig (ron.craig@comcast.net)
-##### started 03/16/2018
+##### 03/16/2018-03/17/2018
 
-### GitHub repository: https://github.com/r-craig73/space-age-calculator.git
+### GitHub repository: https://github.com/r-craig73/space-age-calculator
 
 ## Description
-### An app calculating a user's age with respect to other planets in the solor system. Life expectancy left on other planets and (hopefully) years beyond life expectancy are calculated.
+### An app calculating a user's age with respect to other planets in the solar system. User's life expectancy left on other planets and (hopefully) years beyond expected life expectancy are calculated.
 
 ## Business Specifications
   * Spec 1: Convert a person's name from years into seconds.
@@ -100,11 +100,11 @@
 Copyright (c) 2018 **_RC productions_**
 
 ###### Planning [ONGOING]
-  1. UX/UI
-    * Add UI to application.
-    * Include and modify bootstrap/materialize/Sass etc.
-    * Add a solar theme background
+######  1. UX/UI
+######    * Add UI to application.
+######    * Include and modify bootstrap/materialize/Sass etc.
+######    * Add a solar theme background
 
-  2. Polish
-    * Refactor JS code.
-    * Improve Readme.
+######  2. Polish
+######    * Refactor JS code.
+######    * Improve Readme.

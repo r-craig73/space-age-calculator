@@ -82,16 +82,16 @@ Age.prototype.yearsLeftMale = function() {
     results.push(jupiterLeft);
     return results;
   } else {
-  let lifeLeft = usMale - age;
-  let mercuryLeft = (lifeLeft / mercury);
-  results.push(mercuryLeft);
-  let venusLeft = (lifeLeft / venus);
-  results.push(venusLeft);
-  let marsLeft = (lifeLeft / mars);
-  results.push(marsLeft);
-  let jupiterLeft = (lifeLeft / jupiter);
-  results.push(jupiterLeft);
-  return results;
+    let lifeLeft = usMale - age;
+    let mercuryLeft = (lifeLeft / mercury);
+    results.push(mercuryLeft);
+    let venusLeft = (lifeLeft / venus);
+    results.push(venusLeft);
+    let marsLeft = (lifeLeft / mars);
+    results.push(marsLeft);
+    let jupiterLeft = (lifeLeft / jupiter);
+    results.push(jupiterLeft);
+    return results;
   }
 };
 
