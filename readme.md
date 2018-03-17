@@ -10,13 +10,13 @@
 
 ## Business Specifications
   * Spec 1: Convert a person's name from years into seconds. input: 5 years, output: 157680000 seconds.
-  * Spec 2: Take two dates and determine the difference, in seconds. input1: 03/16/2018, input2: 03/16/2017 (now-ish); output: 31536000 seconds.
-  * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years). input: 10 years; output: 41.67 years (41 years, round down).
-  * Spec 4: Return the age of a human in Venus years (1 Venus year = 0.62 Earth years). input: 10 years; output: 16.13 years (16 years round down).
-  * Spec 5: Return the age of a human in Mars years (1 Mars year = 1.88 Earth years). input: 10 years; output: 5.32 years (5 years round down).
-  * Spec 6: Return the age of a human in Jupiter years (1 Jupiter year = 11.86 Earth years). input: 10 years; output: 0.84 years (0 years round down)
-  * Spec 7: Determine life expectancy a user has left to live on each planet. Have user input average life expectancy for US male/female. input: 82 years; outputs: You are expected to live 154.17 more years on Mercury.; You are expected to live 59.68 more years on Venus.; You are expected to live 19.68 more years on Mars.; You are expected to live 3.12 more years on Jupiter.
-  * Spec 8: If user has already surpassed the average life expectancy, return the number of years the user lived past the life expectancy. input: 84 years; outputs: Congrats, on Mercury you lived 8.33 years longer than average!; Congrats, on Venus you lived 3.23 years longer than average!; Congrats, on Mars you lived 1.06 years longer than average!; Congrats, on Jupiter you lived 0.17 years longer than average!
+  * Spec 2: Take two dates and determine the difference, in seconds. input1: 03/16/2018 (midnight), input2: 03/16/2017 (midnight), midnight; output: 31536000 seconds.
+  * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years). input: 10 years; output: 41.67 years (41 years, round down). [ONGOING]
+  * Spec 4: Return the age of a human in Venus years (1 Venus year = 0.62 Earth years). input: 10 years; output: 16.13 years (16 years round down). [ONGOING]
+  * Spec 5: Return the age of a human in Mars years (1 Mars year = 1.88 Earth years). input: 10 years; output: 5.32 years (5 years round down). [ONGOING]
+  * Spec 6: Return the age of a human in Jupiter years (1 Jupiter year = 11.86 Earth years). input: 10 years; output: 0.84 years (0 years round down) [ONGOING]
+  * Spec 7: Determine life expectancy a user has left to live on each planet. Have user input average life expectancy for US male/female. input: 82 years; outputs: You are expected to live 154.17 more years on Mercury.; You are expected to live 59.68 more years on Venus.; You are expected to live 19.68 more years on Mars.; You are expected to live 3.12 more years on Jupiter. [ONGOING]
+  * Spec 8: If user has already surpassed the average life expectancy, return the number of years the user lived past the life expectancy. input: 84 years; outputs: Congrats, on Mercury you lived 8.33 years longer than average!; Congrats, on Venus you lived 3.23 years longer than average!; Congrats, on Mars you lived 1.06 years longer than average!; Congrats, on Jupiter you lived 0.17 years longer than average! [ONGOING]
 
 ## Configuration/dependencies
   * JavaScript (object-oriented) and JavaScript Date object.
@@ -75,7 +75,7 @@
 
 Copyright (c) 2018 **_RC productions_**
 
-##### Planning (ongoing)
+###### Planning [ONGOING]
   1. Finish failing and passing business-side BDD specs.
 
   2. UX/UI
