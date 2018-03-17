@@ -11,7 +11,7 @@
 ## Business Specifications
   * Spec 1: Convert a person's name from years into seconds. input: 5 years, output: 157680000 seconds.
   * Spec 2: Take two dates and determine the difference, in seconds. input1: 03/16/2018 (midnight), input2: 03/16/2017 (midnight), midnight; output: 31536000 seconds.
-  * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years). input: 10 years; output: 41.67 years (41 years, round down). [ONGOING]
+  * Spec 3: Return the age of a human in Mercury years (Mercury year = 0.24 Earth years). input: 10 years; output: 41.67 years (41 years, round down).
   * Spec 4: Return the age of a human in Venus years (1 Venus year = 0.62 Earth years). input: 10 years; output: 16.13 years (16 years round down).
   * Spec 5: Return the age of a human in Mars years (1 Mars year = 1.88 Earth years). input: 10 years; output: 5.32 years (5 years round down). [ONGOING]
   * Spec 6: Return the age of a human in Jupiter years (1 Jupiter year = 11.86 Earth years). input: 10 years; output: 0.84 years (0 years round down) [ONGOING]

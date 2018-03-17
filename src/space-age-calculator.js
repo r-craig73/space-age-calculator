@@ -27,13 +27,15 @@ Age.prototype.mercuryYears = function() {
   let age = this.userAge;
   let mercuryAge = age / mercury;
   let result = mercuryAge;
-  //.toFixed(3);
-  console.log(result);
   if (isNaN(result)) {
     return "unable to compute";
   } else {
     return result;
   }
+};
+
+Age.prototype.venusYears = function() {
+
 };
 
 Birthdate.prototype.dateDifference = function() {
