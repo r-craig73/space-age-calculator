@@ -70,6 +70,18 @@ Age.prototype.jupiterYears = function() {
 Age.prototype.yearsLeftMale = function() {
   let age = this.userAge;
   let results = [];
+  if (age > usMale) {
+    let lifeLeft = age - usMale;
+    let mercuryLeft = (lifeLeft / mercury);
+    results.push(mercuryLeft);
+    let venusLeft = (lifeLeft / venus);
+    results.push(venusLeft);
+    let marsLeft = (lifeLeft / mars);
+    results.push(marsLeft);
+    let jupiterLeft = (lifeLeft / jupiter);
+    results.push(jupiterLeft);
+    return results;
+  } else {
   let lifeLeft = usMale - age;
   let mercuryLeft = (lifeLeft / mercury);
   results.push(mercuryLeft);
@@ -80,12 +92,24 @@ Age.prototype.yearsLeftMale = function() {
   let jupiterLeft = (lifeLeft / jupiter);
   results.push(jupiterLeft);
   return results;
+  }
 };
 
 Age.prototype.yearsLeftFemale = function() {
   let age = this.userAge;
   let results = [];
-
+  if (age > usFemale) {
+    let lifeLeft = age - usFemale;
+    let mercuryLeft = (lifeLeft / mercury);
+    results.push(mercuryLeft);
+    let venusLeft = (lifeLeft / venus);
+    results.push(venusLeft);
+    let marsLeft = (lifeLeft / mars);
+    results.push(marsLeft);
+    let jupiterLeft = (lifeLeft / jupiter);
+    results.push(jupiterLeft);
+    return results;
+  } else {
     let lifeLeft = usFemale - age;
     let mercuryLeft = (lifeLeft / mercury);
     results.push(mercuryLeft);
@@ -96,7 +120,7 @@ Age.prototype.yearsLeftFemale = function() {
     let jupiterLeft = (lifeLeft / jupiter);
     results.push(jupiterLeft);
     return results;
-  
+  }
 };
 
 Birthdate.prototype.dateDifference = function() {

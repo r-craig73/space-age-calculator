@@ -36,7 +36,7 @@ describe('Age', function() {
   it('should return surpassed years on each planet [Mercury, Venus, Mars and Jupiter] for a US female or male', function() {
     let earthYears = new Age(84);
     expect(earthYears.yearsLeftFemale()).toEqual([12.5, 4.838709677419355, 1.595744680851064, 0.25295109612141653]);
-    expect(earthYears.yearsLeftMale()).toEqual([33.33, 12.90, 4.26, 0.67]);
+    expect(earthYears.yearsLeftMale()).toEqual([33.333333333333336, 12.903225806451614, 4.25531914893617, 0.6745362563237775]);
   });
 
 });
