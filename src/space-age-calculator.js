@@ -15,6 +15,8 @@ const mercury = 0.24;
 const venus = 0.62;
 const mars = 1.88;
 const jupiter = 11.86;
+// const usMale = 76;
+// const usFemale = 81;
 
 Age.prototype.intoSeconds = function() {
   let age = this.userAge;
@@ -68,6 +70,14 @@ Age.prototype.jupiterYears = function() {
   } else {
     return result;
   }
+};
+
+Age.prototype.yearsLeftMale = function() {
+
+};
+
+Age.prototype.yearsLeftFemale = function() {
+
 };
 
 Birthdate.prototype.dateDifference = function() {

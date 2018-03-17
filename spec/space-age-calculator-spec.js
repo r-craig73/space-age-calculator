@@ -27,6 +27,14 @@ describe('Age', function() {
     expect(earthYears.jupiterYears()).toEqual(1.6863406408094437);
   });
 
+  it('should return the life expectancy for a US female or male', function() {
+    let earthYears = new Age(45);
+    expect(earthYears.yearsLeftMale()).toEqual([129.1667, 50, 16.4894, 2.6138]);
+    expect(earthYears.yearsLeftFemale()).toEqual([150, 58.0645, 19.1489, 3.0354]);
+  });
+
+
+
 });
 
 describe('Birthdate', function() {
