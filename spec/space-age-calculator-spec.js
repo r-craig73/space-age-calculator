@@ -24,7 +24,7 @@ describe('Age', function() {
 
   it('should return the age of the human in Jupiter years', function() {
     let earthYears = new Age(20);
-    expect(earthYears.jupiterYears()).toEqual(1.686);
+    expect(earthYears.jupiterYears()).toEqual(1.6863406408094437);
   });
 
 });
